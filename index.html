@@ -1,0 +1,342 @@
+<html>
+
+<head>
+    <title>ToS and Privacy Policy</title>
+    <style>
+        /* Sakura.css v1.4.1
+ * ================
+ * Minimal css theme.
+ * Project: https://github.com/oxalorg/sakura/
+ */
+        /* Body */
+        html {
+            font-size: 62.5%;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+        }
+
+        body {
+            font-size: 1.8rem;
+            line-height: 1.618;
+            max-width: 38em;
+            margin: auto;   
+            color: #4a4a4a;
+            background-color: #f9f9f9;
+            padding: 13px;
+        }
+
+        @media (max-width: 684px) {
+            body {
+                font-size: 1.53rem;
+            }
+        }
+
+        @media (max-width: 382px) {
+            body {
+                font-size: 1.35rem;
+            }
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            line-height: 1.1;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+            font-weight: 700;
+            margin-top: 3rem;
+            margin-bottom: 1.5rem;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            -ms-word-break: break-all;
+            word-break: break-word;
+        }
+
+        h1 {
+            font-size: 2.35em;
+        }
+
+        h2 {
+            font-size: 2em;
+        }
+
+        h3 {
+            font-size: 1.75em;
+        }
+
+        h4 {
+            font-size: 1.5em;
+        }
+
+        h5 {
+            font-size: 1.25em;
+        }
+
+        h6 {
+            font-size: 1em;
+        }
+
+        p {
+            margin-top: 0px;
+            margin-bottom: 2.5rem;
+        }
+
+        small,
+        sub,
+        sup {
+            font-size: 75%;
+        }
+
+        hr {
+            border-color: #1d7484;
+        }
+
+        a {
+            text-decoration: none;
+            color: #1d7484;
+        }
+
+        a:visited {
+            color: #144f5a;
+        }
+
+        a:hover {
+            color: #982c61;
+            border-bottom: 2px solid #4a4a4a;
+        }
+
+        ul {
+            padding-left: 1.4em;
+            margin-top: 0px;
+            margin-bottom: 2.5rem;
+        }
+
+        li {
+            margin-bottom: 0.4em;
+        }
+
+        blockquote {
+            margin-left: 0px;
+            margin-right: 0px;
+            padding-left: 1em;
+            padding-top: 0.8em;
+            padding-bottom: 0.8em;
+            padding-right: 0.8em;
+            border-left: 5px solid #1d7484;
+            margin-bottom: 2.5rem;
+            background-color: #f1f1f1;
+        }
+
+        blockquote p {
+            margin-bottom: 0;
+        }
+
+        img,
+        video {
+            height: auto;
+            max-width: 100%;
+            margin-top: 0px;
+            margin-bottom: 2.5rem;
+        }
+
+        /* Pre and Code */
+        pre {
+            background-color: #f1f1f1;
+            display: block;
+            padding: 1em;
+            overflow-x: auto;
+            margin-top: 0px;
+            margin-bottom: 2.5rem;
+            font-size: 0.9em;
+        }
+
+        code,
+        kbd,
+        samp {
+            font-size: 0.9em;
+            padding: 0 0.5em;
+            background-color: #f1f1f1;
+            white-space: pre-wrap;
+        }
+
+        pre>code {
+            padding: 0;
+            background-color: transparent;
+            white-space: pre;
+            font-size: 1em;
+        }
+
+        /* Tables */
+        table {
+            text-align: justify;
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            padding: 0.5em;
+            border-bottom: 1px solid #f1f1f1;
+        }
+
+        /* Buttons, forms and input */
+        input,
+        textarea {
+            border: 1px solid #4a4a4a;
+        }
+
+        input:focus,
+        textarea:focus {
+            border: 1px solid #1d7484;
+        }
+
+        textarea {
+            width: 100%;
+        }
+
+        .button,
+        button,
+        input[type=submit],
+        input[type=reset],
+        input[type=button] {
+            display: inline-block;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            white-space: nowrap;
+            background-color: #1d7484;
+            color: #f9f9f9;
+            border-radius: 1px;
+            border: 1px solid #1d7484;
+            cursor: pointer;
+            box-sizing: border-box;
+        }
+
+        .button[disabled],
+        button[disabled],
+        input[type=submit][disabled],
+        input[type=reset][disabled],
+        input[type=button][disabled] {
+            cursor: default;
+            opacity: 0.5;
+        }
+
+        .button:focus:enabled,
+        .button:hover:enabled,
+        button:focus:enabled,
+        button:hover:enabled,
+        input[type=submit]:focus:enabled,
+        input[type=submit]:hover:enabled,
+        input[type=reset]:focus:enabled,
+        input[type=reset]:hover:enabled,
+        input[type=button]:focus:enabled,
+        input[type=button]:hover:enabled {
+            background-color: #982c61;
+            border-color: #982c61;
+            color: #f9f9f9;
+            outline: 0;
+        }
+
+        textarea,
+        select,
+        input {
+            color: #4a4a4a;
+            padding: 6px 10px;
+            /* The 6px vertically centers text on FF, ignored by Webkit */
+            margin-bottom: 10px;
+            background-color: #f1f1f1;
+            border: 1px solid #f1f1f1;
+            border-radius: 4px;
+            box-shadow: none;
+            box-sizing: border-box;
+        }
+
+        textarea:focus,
+        select:focus,
+        input:focus {
+            border: 1px solid #1d7484;
+            outline: 0;
+        }
+
+        input[type=checkbox]:focus {
+            outline: 1px dotted #1d7484;
+        }
+
+        label,
+        legend,
+        fieldset {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="basic wrap0 padl">
+        <h1 class="h1">Terms of Service</h1>
+        <p class="p1">
+            By using Thread (the "Site"), you agree to comply with and be bound by
+            these Terms of Use (the "Thread") and/or any revised version. Any new
+            service available on the Site or any modification of an existing service
+            will be governed by the TOS, which may be modified or updated from time to
+            time. We strongly encourage you to review the TOS regularly. The Site is
+            operated in Stockholm, Sweden.
+        </p>
+        <h2 class="h2">Privacy And Security Principles</h2>
+        <p class="p1">
+            Since we started Thread, we've built our Services with strong privacy and security principles in mind.
+        </p>
+
+
+        <h2 class="h2">Connecting You With Other People</h2>
+
+        <p class="p1">
+            We provide, and always strive to improve, ways for you to communicate with other Thread users including
+            through messages, voice calls, sending images and video, and sharing your location with others when you
+            choose. We may provide a convenient platform that enables you to send and receive money to or from other
+            users across our platform. Thread works with partners, service providers, and affiliated companies to help
+            us provide ways for you to connect with their services.
+        </p>
+
+        <h2 class="h2">Ways To Improve Our Services</h2>
+
+        <p class="p1">
+            We analyze how you make use of Thread, in order to improve our Services, including helping businesses who
+            use Thread measure the effectiveness and distribution of their services and messages. Thread uses the
+            information it has and also works with partners, service providers, and affiliated companies to do this.
+        </p>
+
+
+        <h2 class="h2">Communicating With Businesses</h2>
+
+        <p class="p1">
+            We provide, and always strive to improve, ways for you and businesses and other organizations, to
+            communicate with each other using our Services, such as through order, transaction, and appointment
+            information, delivery and shipping notifications, product and service updates, and marketing.
+        </p>
+
+
+        <h2 class="h2">Safety, Security, And Integrity</h2>
+
+        <p class="p1">
+            We work to protect the safety, security, and integrity of our Services. This includes appropriately dealing
+            with abusive people and activity violating our Terms. We work to prohibit misuse of our Services including
+            harmful conduct towards others, violations of our Terms and policies, and address situations where we may be
+            able to help support or protect our community. If we learn of people or activity like this, we will take
+            appropriate action, including by removing such people or activity or contacting law enforcement.
+        </p>
+
+
+        <h2 class="h2">Enabling Access To Our Services</h2>
+
+        <p class="p1">
+            To operate our global Services, we need to store and distribute content and information in data centers and
+            systems around the world, including outside your country of residence. The use of this global infrastructure
+            is necessary and essential to provide our Services. This infrastructure may be owned or operated by our
+            service providers including affiliated companies.
+        </p>
+</body>
+
+</html>
